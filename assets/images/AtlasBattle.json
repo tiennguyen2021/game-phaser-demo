@@ -1,0 +1,100 @@
+{"frames": {
+
+"lowerDock.png":
+{
+	"frame": {"x":375,"y":306,"w":1125,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1125,"h":480},
+	"sourceSize": {"w":1125,"h":480}
+},
+"paper-square.png":
+{
+	"frame": {"x":50,"y":0,"w":80,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":80,"h":80},
+	"sourceSize": {"w":80,"h":80}
+},
+"red.png":
+{
+	"frame": {"x":0,"y":306,"w":375,"h":390},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":375,"h":390},
+	"sourceSize": {"w":375,"h":390}
+},
+"rock-square.png":
+{
+	"frame": {"x":130,"y":0,"w":80,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":80,"h":80},
+	"sourceSize": {"w":80,"h":80}
+},
+"scissors-square.png":
+{
+	"frame": {"x":210,"y":0,"w":80,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":80,"h":80},
+	"sourceSize": {"w":80,"h":80}
+},
+"Skills.png":
+{
+	"frame": {"x":978,"y":0,"w":366,"h":306},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":366,"h":306},
+	"sourceSize": {"w":366,"h":306}
+},
+"sound-on.png":
+{
+	"frame": {"x":0,"y":0,"w":50,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":50},
+	"sourceSize": {"w":50,"h":50}
+},
+"start-text.png":
+{
+	"frame": {"x":649,"y":0,"w":329,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":329,"h":53},
+	"sourceSize": {"w":329,"h":53}
+},
+"upperDock.png":
+{
+	"frame": {"x":0,"y":786,"w":1125,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1125,"h":480},
+	"sourceSize": {"w":1125,"h":480}
+},
+"versus.png":
+{
+	"frame": {"x":290,"y":0,"w":119,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":119,"h":100},
+	"sourceSize": {"w":119,"h":100}
+},
+"win-1st-game.png":
+{
+	"frame": {"x":409,"y":0,"w":240,"h":243},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":243},
+	"sourceSize": {"w":240,"h":243}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "AtlasBattle.png",
+	"format": "RGBA8888",
+	"size": {"w":1500,"h":1266},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:cb34223ca316ce3d7e9c52ab95f9c724:a0a19a9da62a319707d5e5bdd81210cf:9cbd382dcc95c175636972f988beda52$"
+}
+}
