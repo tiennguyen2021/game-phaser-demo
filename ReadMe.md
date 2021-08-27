@@ -2,9 +2,9 @@
 
 ## Usage
 - Running in local
-npm start 
+    + npm start 
 - Build
-npm run build
+    + npm run build
 
 ## Game Flow
 0. join game ( from app )
