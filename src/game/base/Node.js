@@ -2,6 +2,7 @@
  * @created by Kame
  * abstract class for base entity
  */
+import { gsap } from 'gsap';
 export class Node extends Phaser.GameObjects.Container {
 
     constructor(scene) {
@@ -26,5 +27,13 @@ export class Node extends Phaser.GameObjects.Container {
     create() { }
 
     start() { }
+
+    scheduleOnce(callback, time) {
+        gsap.delayedCall(time, () => { callback && callback() });
+    }
+
+    unschedule(callback) {
+        gsap.killTweensOf(callback);
+    }
 
 }

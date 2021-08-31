@@ -19,7 +19,7 @@ export class CompoAvatar extends Node {
         if (!this.background) {
             this.background = this.scene.add.graphics();
             this.background.fillStyle(0x000000);
-            this.background.fillRoundedRect(0, 0, this.WIDTH + 2 * this.BORDER, this.HEIGHT + 2 * this.BORDER, 25);
+            this.background.fillRoundedRect(- this.WIDTH / 2 - this.BORDER, - this.HEIGHT / 2 - this.BORDER, this.WIDTH + 2 * this.BORDER, this.HEIGHT + 2 * this.BORDER, 25);
             this.add(this.background);
         }
     }
@@ -29,10 +29,8 @@ export class CompoAvatar extends Node {
             this.avatar = this.scene.make.sprite();
             this.add(this.avatar);
             this.avatar.setTexture('ava1');
-            this.avatar.x = this.BORDER + this.WIDTH / 2;
-            this.avatar.y = this.BORDER + this.HEIGHT / 2;
         }
-        
+
     }
 
     _createMask() {
@@ -45,7 +43,6 @@ export class CompoAvatar extends Node {
                 const mask = shape.createGeometryMask();
                 shape.x = this.avatar.getWorldTransformMatrix().tx;
                 shape.y = this.avatar.getWorldTransformMatrix().ty;
-                console.error(this.avatar.getWorldTransformMatrix());
                 this.avatar.setMask(mask);
             }, 20);
         }
