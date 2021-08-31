@@ -5,7 +5,7 @@ import { EnemyInfo } from "./EnemyInfo";
 import { gsap } from "gsap";
 export class GameView extends Node {
 
-    initView() {
+    create() {
         this.initBackground();
         this.initLayer();
         this.initUsers();
@@ -59,12 +59,12 @@ export class GameView extends Node {
     }
 
     showAnimPrepare() {
-        this.myInfo.y = this.myInfo.showY + 250;
-        this.enemyInfo.y = this.enemyInfo.showY - 250;
+        // this.myInfo.y = this.myInfo.showY + 250;
+        // this.enemyInfo.y = this.enemyInfo.showY - 250;
 
-        gsap.timeline({repeat: -1}).to(this.skillBox, { scale: 1, duration: 2 })
-        gsap.timeline({repeat: -1}).to(this.myInfo, { y: this.myInfo.showY, delay: 1, duration: 1 });
-        gsap.timeline({repeat: -1}).to(this.enemyInfo, { y: this.enemyInfo.showY, delay: 1, duration: 1 });
+        // gsap.timeline({repeat: -1}).to(this.skillBox, { scale: 1, duration: 2 })
+        // gsap.timeline({repeat: -1}).to(this.myInfo, { y: this.myInfo.showY, delay: 1, duration: 1 });
+        // gsap.timeline({repeat: -1}).to(this.enemyInfo, { y: this.enemyInfo.showY, delay: 1, duration: 1 });
 
     }
 

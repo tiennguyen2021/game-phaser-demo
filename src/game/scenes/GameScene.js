@@ -1,4 +1,4 @@
-import { GameView } from "./view/GameView";
+import { GameView } from "../view/GameView";
 export class GameScene extends Phaser.Scene {
     constructor() {
         super({

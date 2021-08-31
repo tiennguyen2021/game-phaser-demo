@@ -7,11 +7,23 @@ export class Node extends Phaser.GameObjects.Container {
     constructor(scene) {
         super(scene);
         this.config = scene.config;
-        this.initView();
-        this.start();
+        if (typeof this.init === 'function') {
+            this.init();
+        }
+        if (typeof this.create === 'function') {
+            this.create();
+        }
+        if (typeof this.start === 'function') {
+            this.start();
+        }
+        if (typeof this.onUpdateData === 'function') {
+            this.on("changeData", this.onUpdateData, this);
+        }
     }
 
-    initView() { }
+    init() { }
+
+    create() { }
 
     start() { }
 

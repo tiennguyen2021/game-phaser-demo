@@ -2,7 +2,7 @@ import { Node } from "../base/Node";
 
 export class Background extends Node {
 
-    initView() {
+    create() {
         if (!this.mainBg) {
             this.mainBg = this.scene.add.sprite(0, 0, "bgBlue");
             this.add(this.mainBg);

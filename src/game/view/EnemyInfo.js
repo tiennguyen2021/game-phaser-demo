@@ -2,8 +2,8 @@ import { UserInfo } from "./UserInfo";
 
 export class EnemyInfo extends UserInfo {
 
-    initView() {
-        super.initView();
+    create() {
+        super.create();
         this.avatar.x = this.config.width - 100;
         this.updateAvatar("ava2");
     }
