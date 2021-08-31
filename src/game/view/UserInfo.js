@@ -19,6 +19,8 @@ export class UserInfo extends Node {
         if(!this.avatar){
             this.avatar = new CompoAvatar(this.scene);
             this.add(this.avatar);
+            this.avatar.x = 125;
+            this.avatar.y = 125;
         }
     }
 
